@@ -1,8 +1,19 @@
-## RC_PROJ2 - Network Configuration
+## 3LEIC04B - Network Configuration
+
+> **2022/2023** - 3rd Year, 1st Semester
+>
+> **Course** - RCOM (Redes de Computadores)
+>
+> **Project developed by**
+> - Anete Pereira (up202008856)
+> - Isabel Amaral (up202006677)
+> - Milena Gouveia (up202008862)
+
+### Project Description
+
+The goal of this project was to use the computers, switches and routers available in the lab to configure the architecture of a small local network and to develop a simple FTP download application to later be used inside the configured network.
 
 ### Part 1 - Development of a Download Application
-
-<br>
 
 This application can be used by compiling the code in the [download](/download/) folder using the provided Makefile.
 
@@ -26,12 +37,12 @@ host `ftp.up.pt` (doesn't require being inside FEUP's network):
 - ./download [ftp://ftp.up.pt/pub/debian/README](ftp://ftp.up.pt/pub/debian/README)
 - ./download [ftp://ftp.up.pt/pub/apache/README.html](ftp://ftp.up.pt/pub/apache/README.html)
 
-<br>
-
 ### Part 2 - Development of a Download Application
-
-<br>
 
 The commands used for the configuration in each experience x are listed inside the respective exp\<x\> folder. The complete configuration is reached in experience 4, therefore, there aren't any new commands for experience 5 and experience 6.
 
 The full configuration for this project can be checked [here](/exp4/).
+
+### Project Development State
+
+All the goals for this project were reached and a [report](./docs/report.pdf) was written based on the [wireshark logs](./docs/logs/) we collected throughout the several lab sessions.
